@@ -110,4 +110,23 @@ body {
     height: 300px;
     border: none;
   }
-  
+
+  .liclass {
+    text-decoration: none;
+    color: white;
+    font-style: italic;
+    }  
+
+  ul {
+    text-align: center; 
+    list-style-type: none;
+     }
+
+  .video_box{
+    text-align: center;
+    width: 1500px;
+    height: auto;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
