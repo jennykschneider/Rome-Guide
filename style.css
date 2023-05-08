@@ -56,7 +56,7 @@ body {
   }
 
   .table-image {
-    width: 300px;
+    width: 333px;
     height: 300px;
     object-fit: cover;
   }
@@ -114,7 +114,7 @@ body {
   }
   
   .table-map {
-    width: 300px;
+    width: 333px;
     height: 300px;
     border: none;
   }
@@ -149,4 +149,35 @@ body {
 .phrase-table th {
   background-color: #f2f2f2;
   font-weight: bold;
+}
+
+.events-container {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.event-source {
+  font-size: 18px;
+  font-weight: bold;
+  background-color: rgb(156, 124, 81);
+  color: white;
+  border-radius: 5px;
+  padding: 10px;
+  text-align: center;
+  box-sizing: border-box;
+  width: 45%;
+}
+
+.event-source a {
+  color: white;
+  text-decoration: none;
+}
+
+.event-source a:hover {
+  color: antiquewhite;
+  text-decoration: underline;
 }
